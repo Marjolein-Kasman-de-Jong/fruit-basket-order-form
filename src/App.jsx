@@ -1,9 +1,9 @@
 import './App.css'
 import { useState } from 'react';
 
-import FruitCounter from './components/fruitCounter/FruitCounter';
-import Button from './components/button/Button';
-import Input from './components/input/Input';
+import FruitCounter from './components/fruitCounter/FruitCounter.jsx';
+import Button from './components/button/Button.jsx';
+import Input from './components/input/Input.jsx';
 
 function App() {
   const fruits = ['aardbeien', 'bananen', 'appels', 'kiwis'];
