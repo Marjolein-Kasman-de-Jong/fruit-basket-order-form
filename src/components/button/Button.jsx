@@ -10,7 +10,7 @@ function Button({ type, fruit, textContent, formState, handleChange }) {
             // Plus and minus button
             disabled={textContent === '-' && formState[fruit] === 0}
             onClick={
-                (type === 'button') ? ((textContent === '-') ? (e) => handleChange(e, formState[fruit] - 1) : (e) => handleChange(e, formState[fruit] + 1)) :
+                (type === 'button') ? (e) => handleChange(e, formState[fruit] + (textContent === '-' ? - 1 : 1)) :
                 // Reset button 
                 (type === 'reset') ? () => fruit.map(item => handleChange(item, 0)) :
                         // Submit button
