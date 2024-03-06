@@ -1,0 +1,23 @@
+header, main, footer {
+    margin: 16px;
+    width: 100%;
+}
+
+main, footer {
+    min-width: fit-content;
+    max-width: 350px;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: white;
+}
+
+.fruit-counters, form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
