@@ -25,8 +25,7 @@ function App() {
   });
 
   function handleChange(e, newValue) {
-    let changedFieldName;
-    e.target ? changedFieldName = e.target.name : changedFieldName = e;
+    const changedFieldName = e.target ? e.target.name : e;
 
     setFormState(prev => ({
       ...prev,
