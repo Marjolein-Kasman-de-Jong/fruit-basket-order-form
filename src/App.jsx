@@ -1,7 +1,7 @@
 import './App.css'
 import { useState } from 'react';
 
-import FruitCounter from './components/fruitCounter/FruitCounter.jsx';
+import FruitCounter from './components/fruitcounter/FruitCounter.jsx';
 import Button from './components/button/Button.jsx';
 import Input from './components/input/Input.jsx';
 
